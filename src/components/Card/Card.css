@@ -3,21 +3,29 @@
   flex-direction: column;
   height: 200px;
   width: 200px;
-  background-color: #dfdfdf;
   margin: 10px;
   border: 1px solid #e0e0e0;
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
+  padding: 10px
+}
+
+.card-light {
+  background-color: #dfdfdf;
+}
+
+.card-dark {
+  background-color: #ababab;
 }
 
 .card img {
-  height: 100px;
-  width: 100px;
+  height: 120px;
+  width: 120px;
   border-radius: 50%;
   box-sizing: border-box;
   margin-top: 10px;
-  margin-left: 50px;
+  margin-left: 40px;
 }
 
 .song-user {
@@ -50,6 +58,52 @@
 }
 
 .like img{
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
+  border-radius: 0%;
 }
+
+.like p {
+  color: white;
+  font-size: 10px;
+  margin-top: -25px;
+  margin-left: 40px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .card {
+    height: 150px;
+    width: 200px;
+  }
+
+  .card img {
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+  }
+
+  .song-user {
+    height: 70px;
+    margin: 0px;
+  }
+
+  .song-name {
+    font-size: 15px;
+  }
+
+  .song-artist {
+    font-size: 10px;
+  }
+  
+  .like img{
+    height: 20px;
+    width: 20px;
+  }
+  
+  .like p {
+    margin-top: -23px;
+    margin-left: 50px;
+  }
+}
+  

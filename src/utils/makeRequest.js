@@ -9,10 +9,8 @@ const makeRequest = async ({ url, method }, dynamicConfig, navigate) => {
       method,
       ...dynamicConfig,
     });
-
     return response.data;
   } catch (error) {
-    console.log(error);
     if (error.response.status === 401) {
       navigate('/error');
     }

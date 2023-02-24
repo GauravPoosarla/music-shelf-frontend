@@ -20,5 +20,22 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
 
+.body-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 120px;
+  padding-right: 120px;
+  margin-top: 20px;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .body-header {
+    font-size: 20px;
+  }
 }
