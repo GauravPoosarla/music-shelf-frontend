@@ -1,0 +1,13 @@
+.click {
+  text-align: center;
+  padding: 5px;
+}
+.click button {
+  background-color: #4C63AA;
+  color: white;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+}

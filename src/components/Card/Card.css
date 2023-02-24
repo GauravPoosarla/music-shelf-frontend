@@ -1,0 +1,55 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 200px;
+  background-color: #dfdfdf;
+  margin: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.card img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.song-user {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  height: 100px;
+  justify-content: space-between;
+}
+
+.song-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.song-name {
+  margin-top: 5px;
+  font-size: 15px;
+  height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.song-artist {
+  font-size: 10px;
+  height: 20px;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.like img{
+  height: 20px;
+  width: 20px;
+}
