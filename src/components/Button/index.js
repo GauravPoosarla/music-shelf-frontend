@@ -1,7 +1,7 @@
 import React from 'react';
 import './Button.css';
 
-function Button({ setIsClicked }) {
+export function Button({ setIsClicked }) {
   return (
     <div className="click">
       <button onClick={() => setIsClicked(true)}>Sync</button>

@@ -1,13 +1,22 @@
 import React from 'react';
-import Navbar from './components/Header';
-import Body from './components/Body';
+import Home from './pages/Home';
+import Songs from './pages/Songs';
+import SongsByGenre from './pages/SongsByGenre';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { SongDataProvider } from './contexts/SongData';
 import './App.css';
+
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Body />
-    </div>
+    <SongDataProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/songs" element={<Songs />} />
+          <Route path="/genre" element={<SongsByGenre />} />
+        </Routes>
+      </BrowserRouter>
+    </SongDataProvider>
   );
 }
 

@@ -1,0 +1,29 @@
+.songs-genre {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.genre-details {
+  display: flex;
+  flex-direction: row;
+  padding-left: 200px;
+}
+
+.songs-genre > img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+
+.songs-genre-content {
+  padding-left: 200px;
+  padding-right: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  gap: 5px;
+}

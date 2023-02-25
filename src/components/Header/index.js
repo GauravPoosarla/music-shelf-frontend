@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 
-function NavBar() {
+function Header() {
   return (
     <div className="header">
       <p>
@@ -11,4 +11,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default Header;
