@@ -8,7 +8,7 @@
 .genre-details {
   display: flex;
   flex-direction: row;
-  padding-left: 200px;
+  padding-left: 120px;
 }
 
 .songs-genre > img {
@@ -18,12 +18,10 @@
 }
 
 .songs-genre-content {
-  padding-left: 200px;
-  padding-right: 200px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  align-content: center;
+  justify-content: center;
   gap: 5px;
 }
