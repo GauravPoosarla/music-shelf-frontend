@@ -17,13 +17,12 @@ function Body() {
 
   return (
     <div className="body">
-      (
       <div className="loading-screen">
         <p>:((</p>
         <p>seems a bit empty in here ...</p>
+        <br />
         <Button setIsClicked={setIsClicked} />
       </div>
-      )
     </div>
   );
 }

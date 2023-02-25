@@ -2,8 +2,6 @@
   background-color: #4C63AA;
   color: white;
   font-size: 1.2em;
-  padding-left: 30px;
-  padding-right: 30px;
   padding-top: 5px;
   padding-bottom: 5px;
   border-radius: 20px;
@@ -13,4 +11,36 @@
   margin-top: 50px;
   padding-left: 50px;
   padding-right: 50px;
+  position: absolute;
+  right: 70%;
+}
+
+@media screen and (min-width: 250px) {
+  .button-genre button{
+    right: 10%;
+  }
+}
+
+@media screen and (min-width: 350px) {
+  .button-genre button{
+    right: 30%;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .button-genre button{
+    right: 50%;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .button-genre button{
+    right: 65%;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .button-genre button{
+    right: 55%;
+  }
 }

@@ -12,22 +12,53 @@
   justify-content: space-between;
   background-color: #f5f5f5;
   margin-top: 20px;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
 .genre-header h2 {
-  padding-left: 120px;
   font-size: 40px;
   font-weight: bold
 }
 
-.genre-header > img {
-  padding-right: 120px;
-}
-
-.genre-details {
+.genre-content {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   background-color: #f5f5f5;
   padding-top: 30px;
 }
+
+@media screen and (max-width: 768px) {
+  .genre-header {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .genre-header h2 {
+    font-size: 30px;
+    font-weight: bold
+  }
+  
+  .genre-content {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .genre-header {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .genre-header h2 {
+    font-size: 30px;
+    font-weight: bold
+  }
+  
+  .genre-content {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+  

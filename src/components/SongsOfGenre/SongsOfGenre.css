@@ -2,13 +2,12 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  gap: 50px;
 }
 
 .genre-details {
   display: flex;
-  flex-direction: row;
   padding-left: 120px;
+  position: relative;
 }
 
 .songs-genre > img {
@@ -24,4 +23,18 @@
   align-items: center;
   justify-content: center;
   gap: 5px;
+  padding-bottom: 30px;
 }
+
+@media screen and (max-width: 768px) {
+  .genre-details {
+    padding-left: 10px;
+  }
+    
+  .songs-genre-content {
+    justify-content: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+  
