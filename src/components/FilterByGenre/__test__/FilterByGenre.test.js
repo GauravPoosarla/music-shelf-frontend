@@ -113,7 +113,7 @@ describe('FilterByGenre', () => {
     ],
   };
 
-  it("should navigate to '/songs' when the button is clicked", async () => {
+  it("should navigate to '/songs' when the button is clicked", () => {
     render(
       <SongDataProvider value={{ songs: mockSongs, setSongs: jest.fn() }}>
         <FilterByGenre />
@@ -121,10 +121,7 @@ describe('FilterByGenre', () => {
     );
 
     fireEvent.click(screen.getByAltText('icon-grid'));
-
-    await waitFor(() => {
-      expect(mockNavigate).toHaveBeenCalledWith('/songs');
-    });
+    expect(mockNavigate).toHaveBeenCalledWith('/songs');
   });
 
   it('should render correctly', () => {
