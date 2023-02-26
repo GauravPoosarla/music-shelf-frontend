@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AllSongs should render the songs 1`] = `
+<div>
+  <div
+    class="body-content"
+  >
+    <div
+      class="body-header"
+    >
+      <p>
+         all songs 
+      </p>
+      <img
+        alt="icon-grid"
+        src="icon-genre.svg"
+      />
+    </div>
+    <div
+      class="songs"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Body should render correctly 1`] = `
+<div>
+  <div
+    class="body"
+  >
+    <div
+      class="loading-screen"
+    >
+      <p>
+        :((
+      </p>
+      <p>
+        seems a bit empty in here ...
+      </p>
+      <br />
+      <div
+        class="click"
+      >
+        <button>
+          Sync
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

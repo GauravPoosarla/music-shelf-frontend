@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SongsOfGenre should render the songs of genre 1`] = `
+<div>
+  <div
+    class="songs-genre"
+  >
+    <div
+      class="genre-details"
+    >
+      <img
+        alt="Country"
+        src="https://i.scdn.co/image/ab67706c0000bebbf2b5f2f4f4f4f4f4f4f4f4f4"
+      />
+      <div
+        class="button-genre"
+      >
+        <button>
+          Country
+        </button>
+      </div>
+    </div>
+    <div
+      class="songs-genre-content"
+    >
+      <div
+        class="card card-dark"
+      >
+        <img
+          alt="song img"
+          src="https://i.scdn.co/image/ab67616d0000b27386a8ab515de4b7aef28cd631"
+        />
+        <div
+          class="song-user"
+        >
+          <div
+            class="song-info"
+          >
+            <p
+              class="song-name"
+            >
+              Lost
+            </p>
+            <p
+              class="song-artist"
+            >
+              Maroon 5
+            </p>
+          </div>
+          <div
+            class="like"
+          >
+            <div>
+              <img
+                alt="heart-gray"
+                src="heart-gray.svg"
+              />
+              <p>
+                0
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card card-light"
+      >
+        <img
+          alt="song img"
+          src="https://i.scdn.co/image/ab67616d0000b273442b53773d50e1b5369bb16c"
+        />
+        <div
+          class="song-user"
+        >
+          <div
+            class="song-info"
+          >
+            <p
+              class="song-name"
+            >
+              Maps
+            </p>
+            <p
+              class="song-artist"
+            >
+              Maroon 5
+            </p>
+          </div>
+          <div
+            class="like"
+          >
+            <div>
+              <img
+                alt="heart-gray"
+                src="heart-gray.svg"
+              />
+              <p>
+                0
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card card-dark"
+      >
+        <img
+          alt="song img"
+          src="https://i.scdn.co/image/ab67616d0000b2733119f490f02fcee6514e8604"
+        />
+        <div
+          class="song-user"
+        >
+          <div
+            class="song-info"
+          >
+            <p
+              class="song-name"
+            >
+              Payphone
+            </p>
+            <p
+              class="song-artist"
+            >
+              Maroon 5
+            </p>
+          </div>
+          <div
+            class="like"
+          >
+            <div>
+              <img
+                alt="heart-gray"
+                src="heart-gray.svg"
+              />
+              <p>
+                0
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

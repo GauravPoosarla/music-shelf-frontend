@@ -1,10 +1,15 @@
 import React from 'react';
 import './Button.css';
 
-export function Button({ setIsClicked }) {
+export function Button(props) {
+  const { setIsClicked } = props;
+  function clickHandler() {
+    setIsClicked(true);
+  }
+
   return (
     <div className="click">
-      <button onClick={() => setIsClicked(true)}>Sync</button>
+      <button onClick={clickHandler}>Sync</button>
     </div>
   );
 }

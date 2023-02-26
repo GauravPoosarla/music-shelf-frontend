@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterByGenre should render correctly 1`] = `
+<div>
+  <div
+    class="songs-by-genre"
+  >
+    <div
+      class="genre-header"
+    >
+      <h2>
+        genres
+      </h2>
+      <img
+        alt="icon-grid"
+        src="icon-grid.svg"
+      />
+    </div>
+    <div
+      class="genre-content"
+    />
+  </div>
+</div>
+`;

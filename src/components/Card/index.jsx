@@ -6,7 +6,8 @@ import heartRed from '../../assets/heart-red.svg';
 import heartGray from '../../assets/heart-gray.svg';
 import { useState, useEffect } from 'react';
 
-function Card({ song, index }) {
+function Card(props) {
+  const { song, index } = props;
   const [isLiked, setIsLiked] = useState(false);
   const [count, setCount] = useState(0);
 
