@@ -38,3 +38,8 @@
   }
 }
   
+@media screen and (max-width: 500px) {
+  .songs-genre-content {
+    justify-content: center;
+  }
+}

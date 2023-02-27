@@ -14,7 +14,6 @@ exports[`Body should render correctly 1`] = `
       <p>
         seems a bit empty in here ...
       </p>
-      <br />
       <div
         class="click"
       >

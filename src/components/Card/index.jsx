@@ -50,14 +50,28 @@ function Card(props) {
         </div>
         <div className="like">
           {isLiked ? (
-            <div className="box">
-              <img src={heartRed} alt="heart-red" onClick={likeHandler} />
-              <p>{count}</p>
+            <div>
+              <button
+                className="btn-like"
+                style={{
+                  background: `url(${heartRed}) no-repeat center / contain`,
+                }}
+                onClick={likeHandler}
+              >
+                {count}
+              </button>
             </div>
           ) : (
             <div>
-              <img src={heartGray} alt="heart-gray" onClick={likeHandler} />
-              <p>{count}</p>
+              <button
+                className="btn-like"
+                style={{
+                  background: `url(${heartGray}) no-repeat center / contain`,
+                }}
+                onClick={likeHandler}
+              >
+                {count}
+              </button>
             </div>
           )}
         </div>

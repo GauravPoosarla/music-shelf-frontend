@@ -30,13 +30,11 @@ exports[`Card should render correctly 1`] = `
         class="like"
       >
         <div>
-          <img
-            alt="heart-gray"
-            src="heart-gray.svg"
-          />
-          <p>
+          <button
+            class="btn-like"
+          >
             0
-          </p>
+          </button>
         </div>
       </div>
     </div>

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonGenre should render correctly with props 1`] = `
+<div>
+  <div
+    class="button-genre"
+  >
+    <button>
+      Country
+    </button>
+  </div>
+</div>
+`;

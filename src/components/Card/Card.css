@@ -7,7 +7,6 @@
   border: 1px solid #e0e0e0;
   border-radius: 10px;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
-  text-align: center;
   padding: 10px
 }
 
@@ -26,6 +25,7 @@
   box-sizing: border-box;
   margin-top: 10px;
   margin-left: 40px;
+  border: 1px solid black;
 }
 
 .song-user {
@@ -39,6 +39,7 @@
 .song-info {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 .song-name {
@@ -61,6 +62,7 @@
   height: 25px;
   width: 25px;
   border-radius: 0%;
+  border: none;
 }
 
 .like p {
@@ -70,17 +72,26 @@
   margin-left: 40px;
 }
 
+.btn-like {
+  background-color: transparent;
+  border: none;
+  color: white;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+}
+
 
 @media screen and (max-width: 768px) {
   .card {
-    height: 150px;
-    width: 200px;
+    height: 250px;
+    width: 300px;
   }
 
   .card img {
-    height: 100px;
-    width: 100px;
-    margin-left: 50px;
+    height: 180px;
+    width: 180px;
+    margin-left: 60px;
   }
 
   .song-user {
@@ -89,11 +100,12 @@
   }
 
   .song-name {
-    font-size: 15px;
+    height: 30px;
+    font-size: 20px;
   }
 
   .song-artist {
-    font-size: 10px;
+    font-size: 15px;
   }
   
   .like img{
@@ -107,3 +119,41 @@
   }
 }
   
+@media screen and (max-width: 400px) {
+  .card {
+    height: 150px;
+    width: 200px;
+  }
+
+  .card img {
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 5px;
+  }
+
+  .song-user {
+    height: 50px;
+    margin: 0px;
+  }
+
+  .song-name {
+    height: 30px;
+    font-size: 15px;
+  }
+
+  .song-artist {
+    height: 20px;
+    font-size: 10px;
+  }
+  
+  .like img{
+    height: 15px;
+    width: 15px;
+  }
+  
+  .like p {
+    margin-top: -20px;
+    margin-left: 40px;
+  }
+}
