@@ -22,7 +22,7 @@ const AllSongs = () => {
   useEffect(() => {
     makeRequest(GET_SONGS_DATA(), {
       headers: { authorization: 'Bearer QWlzaHdhcnlhIE4=' },
-    }).then((data) => {
+    }).then(data => {
       setSongs(data.data);
     });
   }, []);

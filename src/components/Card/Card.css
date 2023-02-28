@@ -47,7 +47,6 @@
   font-size: 15px;
   height: 20px;
   overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .song-artist {

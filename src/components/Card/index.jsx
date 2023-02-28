@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Card.css';
 import { GET_SONG_DATA, LIKE_SONG } from '../../constants/apiEndPoint';
 import makeRequest from '../../utils/makeRequest';
@@ -14,7 +15,7 @@ function Card(props) {
   useEffect(() => {
     makeRequest(GET_SONG_DATA(song.id), {
       headers: { authorization: 'Bearer QWlzaHdhcnlhIE4=' },
-    }).then((data) => {
+    }).then(data => {
       setIsLiked(data.data.like);
       setCount(data.data.count);
     });
@@ -56,8 +57,7 @@ function Card(props) {
                 style={{
                   background: `url(${heartRed}) no-repeat center / contain`,
                 }}
-                onClick={likeHandler}
-              >
+                onClick={likeHandler}>
                 {count}
               </button>
             </div>
@@ -68,8 +68,7 @@ function Card(props) {
                 style={{
                   background: `url(${heartGray}) no-repeat center / contain`,
                 }}
-                onClick={likeHandler}
-              >
+                onClick={likeHandler}>
                 {count}
               </button>
             </div>
@@ -79,5 +78,10 @@ function Card(props) {
     </div>
   );
 }
+
+Card.propTypes = {
+  song: PropTypes.object,
+  index: PropTypes.number,
+};
 
 export default Card;

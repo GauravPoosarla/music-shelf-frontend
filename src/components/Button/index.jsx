@@ -1,5 +1,6 @@
 import React from 'react';
 import './Button.css';
+import PropTypes from 'prop-types';
 
 export function Button(props) {
   const { setIsClicked } = props;
@@ -14,4 +15,6 @@ export function Button(props) {
   );
 }
 
-export default Button;
+Button.propTypes = {
+  setIsClicked: PropTypes.func,
+};

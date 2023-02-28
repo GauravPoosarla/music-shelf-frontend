@@ -1,9 +1,10 @@
 import React from 'react';
 import Card from '../Card';
+import PropTypes from 'prop-types';
 import ButtonGenre from '../ButtonGenre';
 import './SongsOfGenre.css';
 
-const SongsOfGenre = (props) => {
+const SongsOfGenre = props => {
   return (
     <div className="songs-genre">
       <div className="genre-details">
@@ -17,6 +18,12 @@ const SongsOfGenre = (props) => {
       </div>
     </div>
   );
+};
+
+SongsOfGenre.propTypes = {
+  genre: PropTypes.string,
+  genreImage: PropTypes.string,
+  songs: PropTypes.array,
 };
 
 export default SongsOfGenre;
